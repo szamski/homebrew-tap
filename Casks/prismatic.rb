@@ -7,7 +7,7 @@ cask "prismatic" do
   desc "Menu-bar RGB control for SteelSeries Arena 7 speakers"
   homepage "https://github.com/szamski/Prismatic-for-macOS"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sonoma"
 
   app "Prismatic.app"
 
