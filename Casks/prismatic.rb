@@ -11,7 +11,5 @@ cask "prismatic" do
 
   app "Prismatic.app"
 
-  zap trash: [
-    "~/Library/Preferences/szamowski.prismledmacos.plist",
-  ]
+  zap trash: "~/Library/Preferences/szamowski.prismledmacos.plist"
 end
